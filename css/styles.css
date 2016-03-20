@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -243,25 +245,48 @@ body {
   font-size: 15px;
   text-align: right;
 }
-#box-container {
+#box-container-ar {
   opacity: 1 !important;
   color: #552860;
   /*padding: 20px;*/
   /*margin-right: 3%;*/
-  position: fixed;
+  /*position: fixed;*/
+  /*bottom: 50px;*/
+  /*margin-top: 150px;*/
+  text-align: center;
+  z-index: 1000000000 !important;
+  margin-top: -30px !important;
+}
+#box-container-en {
+  opacity: 1 !important;
+  color: #552860;
+  /*padding: 20px;*/
+  /*margin-right: 3%;*/
+  /*position: fixed;*/
   /*bottom: 50px;*/
   /*margin-top: 150px;*/
   text-align: left;
   z-index: 1000000000 !important;
   margin-top: -30px !important;
 }
-#box-container h2{
+#box-container-ar h2{
+  direction: rtl;
+  text-align: center;
+  font-family: 'Droid Arabic Kufi', sans-serif;
+}
+#box-container-ar p{
+  direction: rtl;
+  text-align: center;
+  font-family: 'Droid Arabic Kufi', sans-serif;
+}
+#box-container-en h2 , #box-container-ar h2{
   font-size: 5em;
   font-weight: 100;
 }
-#box-container p{
+#box-container-en p , #box-container-ar p{
   font-size: 2em;
 }
+
 footer {
   opacity: 1 !important;
   color: #fff;
@@ -283,7 +308,7 @@ footer {
   margin-top: 10px;
   position: fixed;
   bottom: 10%;
-  /*left: 40%;*/
+  left: 12%;
   text-align: center;
   /*border: 1px solid red;*/
 }
