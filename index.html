@@ -16,6 +16,7 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="stylesheet"  type="text/css" href="css/animate.min.css">
 </head>
       <body id="signin-body">
         <ul class="cb-slideshow">
@@ -32,21 +33,21 @@
               <div class="row text-center">
                 <img src="img/logo.png" class="logo text-center">
                 <div id="box-container-en" style="display:none;">
-                  <h2>Coming Soon</h2>
-                  <p class="text-center">
+                  <h2 class="wow fadeInUp">Coming Soon</h2>
+                  <p class="text-center wow fadeInLeft" >
                     The Largest Online Silver Store 
                   </p>
-                  <p class="text-center">
+                  <p class="text-center wow fadeInLeft">
                     in Middle East.
                   </p>
                 </div>
 
                 <div id="box-container-ar" >
-                  <h2>قريباً</h2>
-                  <p class="text-center">
+                  <h2 class="wow fadeInUp" >قريباً</h2>
+                  <p class="text-center wow fadeInLeft">
                     أكبر موقع فضيات 
                   </p>
-                  <p class="text-center">
+                  <p class="text-center wow fadeInLeft">
                     في الشرق الأوسط.
                   </p>
                 </div>
@@ -72,6 +73,7 @@
         </footer>
         <!-- javascript code  -->
         <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript">
           $(function(){
@@ -98,6 +100,7 @@
                   $second.fadeToggle("slow");
              }); 
           }
+            new WOW().init();
         </script>
         <!-- javascript code  -->
       </body>
