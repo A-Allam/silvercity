@@ -17,16 +17,15 @@ body {
 }
 
 /*full screen background */
-.cb-slideshow,
-.cb-slideshow:after {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: 0;
-  margin: 0;
-  padding: 0;
+.cb-slideshow, .cb-slideshow:after {
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    top: 41%;
+    left: -25%;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
 }
 .cb-slideshow:after {
   content: '';
@@ -45,15 +44,15 @@ body {
   opacity: 0;
   z-index: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-animation: imageAnimation 36s linear infinite 0s;
-  -moz-animation: imageAnimation 36s linear infinite 0s;
-  -o-animation: imageAnimation 36s linear infinite 0s;
-  -ms-animation: imageAnimation 36s linear infinite 0s;
-  animation: imageAnimation 36s linear infinite 0s;
+  -webkit-animation: imageAnimation 54s linear infinite 0s;
+  -moz-animation: imageAnimation 54s linear infinite 0s;
+  -o-animation: imageAnimation 54s linear infinite 0s;
+  -ms-animation: imageAnimation 54s linear infinite 0s;
+  animation: imageAnimation 54s linear infinite 0s;
 }
-.cb-slideshow li:nth-child(1) span { background-image: url(../img/6.jpg) }
+.cb-slideshow li:nth-child(1) span { background-image: url(../img/10.jpg) }
 .cb-slideshow li:nth-child(2) span {
-  background-image: url(../img/5.jpg);
+  background-image: url(../img/9.jpg);
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
@@ -61,7 +60,7 @@ body {
   animation-delay: 6s;
 }
 .cb-slideshow li:nth-child(3) span {
-  background-image: url(../img/4.jpg);
+  background-image: url(../img/8.jpg);
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   -o-animation-delay: 12s;
@@ -69,7 +68,7 @@ body {
   animation-delay: 12s;
 }
 .cb-slideshow li:nth-child(4) span {
-  background-image: url(../img/3.jpg);
+  background-image: url(../img/7.jpg);
   -webkit-animation-delay: 18s;
   -moz-animation-delay: 18s;
   -o-animation-delay: 18s;
@@ -77,7 +76,7 @@ body {
   animation-delay: 18s;
 }
 .cb-slideshow li:nth-child(5) span {
-  background-image: url(../img/2.jpg);
+  background-image: url(../img/6.jpg);
   -webkit-animation-delay: 24s;
   -moz-animation-delay: 24s;
   -o-animation-delay: 24s;
@@ -85,12 +84,44 @@ body {
   animation-delay: 24s;
 }
 .cb-slideshow li:nth-child(6) span {
-  background-image: url(../img/1.jpg);
+  background-image: url(../img/5.jpg);
   -webkit-animation-delay: 30s;
   -moz-animation-delay: 30s;
   -o-animation-delay: 30s;
   -ms-animation-delay: 30s;
   animation-delay: 30s;
+}
+.cb-slideshow li:nth-child(7) span {
+  background-image: url(../img/4.jpg);
+  -webkit-animation-delay: 36s;
+  -moz-animation-delay: 36s;
+  -o-animation-delay: 36s;
+  -ms-animation-delay: 36s;
+  animation-delay: 36s;
+}
+.cb-slideshow li:nth-child(8) span {
+  background-image: url(../img/3.jpg);
+  -webkit-animation-delay: 42s;
+  -moz-animation-delay: 42s;
+  -o-animation-delay: 42s;
+  -ms-animation-delay: 42s;
+  animation-delay: 42s;
+}
+.cb-slideshow li:nth-child(9) span {
+  background-image: url(../img/2.jpg);
+  -webkit-animation-delay: 48s;
+  -moz-animation-delay: 48s;
+  -o-animation-delay: 48s;
+  -ms-animation-delay: 48s;
+  animation-delay: 48s;
+}
+.cb-slideshow li:nth-child(10) span {
+  background-image: url(../img/1.jpg);
+  -webkit-animation-delay: 54s;
+  -moz-animation-delay: 54s;
+  -o-animation-delay: 54s;
+  -ms-animation-delay: 54s;
+  animation-delay: 54s;
 }
 .cb-slideshow li:nth-child(2) div {
   -webkit-animation-delay: 6s;
@@ -126,6 +157,34 @@ body {
   -o-animation-delay: 30s;
   -ms-animation-delay: 30s;
   animation-delay: 30s;
+}
+.cb-slideshow li:nth-child(7) div {
+  -webkit-animation-delay: 36s;
+  -moz-animation-delay: 36s;
+  -o-animation-delay: 36s;
+  -ms-animation-delay: 36s;
+  animation-delay: 36s;
+}
+.cb-slideshow li:nth-child(8) div {
+  -webkit-animation-delay: 42s;
+  -moz-animation-delay: 42s;
+  -o-animation-delay: 42s;
+  -ms-animation-delay: 42s;
+  animation-delay: 42s;
+}
+.cb-slideshow li:nth-child(9) div {
+  -webkit-animation-delay: 48s;
+  -moz-animation-delay: 48s;
+  -o-animation-delay: 48s;
+  -ms-animation-delay: 48s;
+  animation-delay: 48s;
+}
+.cb-slideshow li:nth-child(10) div {
+  -webkit-animation-delay: 54s;
+  -moz-animation-delay: 54s;
+  -o-animation-delay: 54s;
+  -ms-animation-delay: 54s;
+  animation-delay: 54s;
 }
 /*imageAnimation styles*/
 @-webkit-keyframes imageAnimation { 
@@ -255,7 +314,7 @@ body {
   /*margin-top: 150px;*/
   text-align: center;
   z-index: 1000000000 !important;
-  margin-top: -30px !important;
+  margin-top: 35% !important;
 }
 #box-container-en {
   opacity: 1 !important;
@@ -265,9 +324,9 @@ body {
   /*position: fixed;*/
   /*bottom: 50px;*/
   /*margin-top: 150px;*/
-  text-align: left;
+  text-align: center;
   z-index: 1000000000 !important;
-  margin-top: -30px !important;
+  margin-top: 45% !important;
 }
 #box-container-ar h2{
   direction: rtl;
@@ -280,13 +339,8 @@ body {
   font-family: 'Droid Arabic Kufi', sans-serif;
 }
 #box-container-en h2 , #box-container-ar h2{
-  font-size: 5em;
   font-weight: 100;
 }
-#box-container-en p , #box-container-ar p{
-  font-size: 2em;
-}
-
 footer {
   opacity: 1 !important;
   color: #fff;
@@ -318,4 +372,60 @@ footer {
   color: #552860;
   font-size: 2em;
   margin-right: 20px;
+}
+/*min-width:768p*/
+@media(min-width:768px){
+  #box-container-ar {
+    opacity: 1 !important;
+    color: #552860;
+    /*padding: 20px;*/
+    /*margin-right: 3%;*/
+    /*position: fixed;*/
+    /*bottom: 50px;*/
+    /*margin-top: 150px;*/
+    text-align: center;
+    z-index: 1000000000 !important;
+    margin-top: -30px !important;
+  }
+  #box-container-en {
+    opacity: 1 !important;
+    color: #552860;
+    /*padding: 20px;*/
+    /*margin-right: 3%;*/
+    /*position: fixed;*/
+    /*bottom: 50px;*/
+    /*margin-top: 150px;*/
+    text-align: left;
+    z-index: 1000000000 !important;
+    margin-top: -30px !important;
+  }
+  #box-container-ar h2{
+    direction: rtl;
+    text-align: center;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+  }
+  #box-container-ar p{
+    direction: rtl;
+    text-align: center;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+  }
+  #box-container-en h2 , #box-container-ar h2{
+    font-size: 5em;
+    font-weight: 100;
+  }
+
+  #box-container-en p , #box-container-ar p{
+    font-size: 2em;
+  }
+  .cb-slideshow,
+  .cb-slideshow:after {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+  }
 }
